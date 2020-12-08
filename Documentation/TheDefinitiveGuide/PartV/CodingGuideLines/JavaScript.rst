@@ -1,6 +1,6 @@
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# Airbnb JavaScript Style Guide() {
+# Webike JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
@@ -40,6 +40,7 @@
   1. [License](#license)
 
 ## Types
+===============
 
   - **Primitives**: When you access a primitive type you work directly on its value.
 
@@ -74,7 +75,8 @@
 
 **[⬆ back to top](#table-of-contents)**
 
-## Objects
+## Object
+===============
 
   - Use the literal syntax for object creation.
 
@@ -124,6 +126,7 @@
 **[⬆ back to top](#table-of-contents)**
 
 ## Arrays
+===============
 
   - Use the literal syntax for array creation.
 
@@ -177,7 +180,7 @@
 
 
 ## Strings
-
+===============
   - Use single quotes `''` for strings.
 
     ```javascript
@@ -262,7 +265,7 @@
 
 
 ## Functions
-
+===============
   - Function expressions:
 
     ```javascript
@@ -321,7 +324,7 @@
 
 
 ## Properties
-
+===============
   - Use dot notation when accessing properties.
 
     ```javascript
@@ -356,7 +359,7 @@
 
 
 ## Variables
-
+===============
   - Always use `var` to declare variables. Not doing so will result in global variables. We want to avoid polluting the global namespace. Captain Planet warned us of that.
 
     ```javascript
@@ -480,7 +483,7 @@
 
 
 ## Hoisting
-
+===============
   - Variable declarations get hoisted to the top of their scope, but their assignment does not.
 
     ```javascript
@@ -570,7 +573,7 @@
 
 
 ## Comparison Operators & Equality
-
+===============
   - Use `===` and `!==` over `==` and `!=`.
   - Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
 
@@ -618,7 +621,7 @@
 
 
 ## Blocks
-
+===============
   - Use braces with all multi-line blocks.
 
     ```javascript
@@ -670,7 +673,7 @@
 
 
 ## Comments
-
+===============
   - Use `/** ... */` for multi-line comments. Include a description, specify types and values for all parameters and return values.
 
     ```javascript
@@ -763,7 +766,7 @@
 
 
 ## Whitespace
-
+===============
   - Use soft tabs set to 2 spaces.
 
     ```javascript
@@ -948,7 +951,7 @@
 **[⬆ back to top](#table-of-contents)**
 
 ## Commas
-
+===============
   - Leading commas: **Nope.**
 
     ```javascript
@@ -1015,7 +1018,7 @@
 
 
 ## Semicolons
-
+===============
   - **Yup.**
 
     ```javascript
@@ -1044,7 +1047,7 @@
 
 
 ## Type Casting & Coercion
-
+===============
   - Perform type coercion at the beginning of the statement.
   - Strings:
 
@@ -1127,7 +1130,7 @@
 
 
 ## Naming Conventions
-
+===============
   - Avoid single letter names. Be descriptive with your naming.
 
     ```javascript
