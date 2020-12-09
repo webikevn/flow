@@ -67,18 +67,9 @@ General considerations
 *The Flow standard file header*::
 
  <?php
- declare(strict_types=1);
+ 
  namespace YourCompany\Package\Something\New;
 
- /*
-  * This file is part of the YourCompany.Package package.
-  *
-  * (c) YourCompany
-  *
-  * This package is Open Source Software. For the full copyright and license
-  * information, please view the LICENSE file which was distributed with this
-  * source code.
-  */
 
 * Code lines are of arbitrary length, no strict limitations to 80 characters or something
   similar (wake up, graphical displays have been available for decades now...). But feel
